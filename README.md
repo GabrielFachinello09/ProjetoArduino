@@ -69,4 +69,3 @@ Dependendo de qual firmware for carregado no microcontrolador, a distribuição 
 Ambos os programas utilizam funções exclusivas chamadas `semaforo()` para isolar a máquina de estados do laço principal `loop()`. A diferença prática está na temporização fixa e na duração de cada etapa do processamento síncrono:
 
 * **Métrica de Ciclo (Cenário 1):** Possui tempo total de retenção de **5.000 ms** (5 segundos) por ciclo completo, divididos entre os três LEDs em uma estrutura linear simples.
-* **Métrica de Ciclo (Cenário 2
